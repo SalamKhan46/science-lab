@@ -3,8 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1,h2,h3{
+body{
+    background: #ddd;
+}
+p{
+    font-family: 'Gantari', sans-serif;
+    font-size: 20px;
+}
+h1,h2,h3,h4{
     font-family: 'Acme', sans-serif;
+    text-transform: capitalize;
 }
 h1{
     font-size: 55px;
@@ -17,6 +25,9 @@ h2{
 h3{
     font-size: 30px;
     margin: 10px 0;
+}
+img{
+    width:100% ;
 }
 .btn{
     text-decoration: none;
@@ -34,7 +45,6 @@ h3{
     max-width:1400px;
     padding: 0 10%;
     margin: 0 auto;
-    border: 1px solid #0f0;
 }
 .middle{
     height: 100%;
@@ -64,4 +74,33 @@ header h1{
 header h3{
     color: #fff;
     text-transform: uppercase;
+}
+/* header end here  */
+
+
+/* wlc-banner :start */
+.wlc-banner{
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.banner-photo{
+    padding: 15px;
+}
+.banner-title{
+    padding: 15px;
+    width: 80%;
+}
+.banner-title h2{
+    color: tomato;
+}
+.banner-title h4{
+    font-weight: 100;
+    color: #6c6c6c;
+}
+.banner-content{
+    padding: 15px;
+}
+.banner-content p{
+    color: #8f8f8f;
 }
