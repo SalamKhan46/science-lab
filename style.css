@@ -9,6 +9,7 @@ body{
 p{
     font-family: 'Gantari', sans-serif;
     font-size: 20px;
+    margin: 10px 0;
 }
 h1,h2,h3,h4{
     font-family: 'Acme', sans-serif;
@@ -25,6 +26,12 @@ h2{
 h3{
     font-size: 30px;
     margin: 10px 0;
+}
+h4{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 100;
+    color: #6c6c6c;
 }
 img{
     width:100% ;
@@ -80,7 +87,9 @@ header h3{
 
 /* wlc-banner :start */
 .wlc-banner{
-    margin: 50px 0;
+    padding: 50px 0; 
+}
+.wlc-banner .banner-main-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
@@ -89,7 +98,6 @@ header h3{
 }
 .banner-title{
     padding: 15px;
-    width: 80%;
 }
 .banner-title h2{
     color: tomato;
@@ -103,4 +111,47 @@ header h3{
 }
 .banner-content p{
     color: #8f8f8f;
+}
+/* banner end here  */
+
+
+/* clint :start */
+.clint{
+    padding: 50px 0;
+    background: #29a1b4;
+    color: #f1ecec;
+}
+.clint p{
+    color: #ddd;
+}
+.clint-head{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.clint-head h4{
+    color: #f1ecec;
+}
+.clint-items{
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.clint-items .item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+}
+.clint-items .item i{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1ecec;
+    background: #15dbf9;
 }
